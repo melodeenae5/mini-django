@@ -1,0 +1,4 @@
+-- settings.sql
+CREATE DATABASE mini;
+CREATE USER miniuser WITH PASSWORD 'mini';
+GRANT ALL PRIVILEGES ON DATABASE mini TO miniuser;
